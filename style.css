@@ -55,6 +55,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 10px 0px;
   
 
 }
@@ -62,9 +63,23 @@ body{
     font-size: 20px;
     font-weight: 600;
 }
+.faq_body_hide_text{
+    max-height: 0; /* Collapsed state */
+    opacity: 0;
+    overflow: hidden; /* Ensures content does not show beyond the set height */
+    transition: max-height 0.5s ease, opacity 0.5s ease;
+}
 .faq_body_hide_text p{
     padding: 10px 0;
     font-size: 16px;
     font-weight: 400px;
     line-height: 20px;
+    opacity: 0.8;
+   
+}
+
+.hide{
+    max-height: 500px; /* Expanded state, adjust height as needed */
+    opacity: 1;
+    transition: max-height 0.5s ease, opacity 0.5s ease;
 }
