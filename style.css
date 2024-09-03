@@ -13,13 +13,13 @@ body{
 .header_wrapper{
     background: url(./assets/images/background-pattern-desktop.svg) no-repeat center center;
     background-size:cover ;
-    padding: 120px;
-    height: 200px;
+    padding: 120px 0;
+    height: 100px;
 
   
 }
 .faq_wrapper{
-    width: 600px;
+    width: 650px;
     height: auto;
     padding: 20px;
     background: hsl(0, 0%, 100%);
@@ -60,7 +60,7 @@ body{
 
 }
 .faq_body_show_text h5{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
 }
 .faq_body_hide_text{
